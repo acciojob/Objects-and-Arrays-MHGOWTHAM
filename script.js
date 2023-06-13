@@ -5,9 +5,9 @@ const person = {
   age: 80,
 };
 
-let team = players
-let team1 = players.copy()
-let cap1 = person.copy()
+let team = players;
+let team1 = players.copy();
+let cap1 = person.copy();
 
 	
 window.players = players;
