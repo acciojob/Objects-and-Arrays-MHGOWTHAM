@@ -5,9 +5,9 @@ const person = {
   age: 80,
 };
 
-let team=players;
-let team1=team;
-let cap1=person;
+const team=players;
+const team1=team;
+const cap1=person;
 
 	
 window.players = players;
