@@ -6,12 +6,14 @@ const person = {
 };
 
 var team = players;
-var team1 = players.copy();
-var cap1 = person.copy();
+var team1 = players;
+var cap1 = person;
 
 	
-window.players = players;
+window.players = team;
+window.players[3]="Dhoni"
 window.person = person;
-window.team = team;
+window.team = players;
+window.team[3]="Poppy"
 window.team1 = team1;
 window.cap1 = cap1;
