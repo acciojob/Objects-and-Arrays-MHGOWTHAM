@@ -5,7 +5,7 @@ const person = {
   age: 80,
 };
 
-var team = players;
-var team1 = team;
-var cap1 = person;
+const team = players;
+const team1 = [...players];
+const cap1 = person;
 
